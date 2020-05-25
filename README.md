@@ -20,7 +20,7 @@ start sh
 * docker version:查看 docker 版本
 * 
 
-#### Docker daemon(-D 指的就是 daemon)
+#### Docker daemon
 ```
 docker run hello-world
 ```
