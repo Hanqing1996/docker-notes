@@ -5,7 +5,7 @@
 #### win10 下安装Docker
 * 过程
 1. 下载 [DockerToolbox.exe](https://get.daocloud.io/toolbox/)(我下载的版本为 DockerToolbox-19.03.1.exe)       
-2. 执行上述 exe 文件后，在 Docker Toolbox 目录下用 Git Bash 执行 start.sh（之所以没用 Quick Start 是因为我出现了闪退问题）
+2. 执行上述 exe 文件后，在 Docker Toolbox 目录下(ds)用 Git Bash 执行 start.sh（之所以没用 Quick Start 是因为我出现了闪退问题）
 ```
 start sh
 ```
@@ -40,6 +40,16 @@ docker run hello-world
 
 
 #### Docker 安装 mysql
+1. 拉取 mysql 镜像
 ```
- docker run --name mysql1 -e MYSQL_ROOT_PASSWORD=123456 -p 3306:3306 -d mysql:5.7.28
+ docker run --name mysql1 -e MYSQL_ROOT_PASSWORD=123456 -p 3306:3306 -d mysql:8.0.28
 ```
+2. 进入容器的 linux 环境(这一步不能用 git bash，必须用 cmd)
+```
+docker exec -it mysql1 bash
+```
+3. 登录
+```
+mysql -u root -p
+```
+接下来会提醒你输入密码，输入 123456 后就进入 mysql 了
