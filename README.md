@@ -53,3 +53,9 @@ docker exec -it mysql1 bash
 mysql -u root -p
 ```
 接下来会提醒你输入密码，输入 123456 后就进入 mysql 了
+
+#### 在本机登录 mysql
+直接在 cmd 中执行
+```
+docker exec -it mysql1 bash
+```
