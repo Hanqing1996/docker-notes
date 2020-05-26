@@ -57,5 +57,5 @@ mysql -u root -p
 #### 在本机登录 mysql
 直接在 cmd 中执行
 ```
-docker exec -it mysql1 bash
+docker start mysql1
 ```
