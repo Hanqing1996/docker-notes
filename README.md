@@ -26,8 +26,8 @@ start sh
 * docker pull tomcat:拉取 tomcat 镜像
 * docker image ls:查看已拉取到的镜像
 * docker ps:查看进程
-* docker run xxx:开启容器
-* docker rm xxx:删除容器
+* docker start xxx:运行已停止的容器
+* docker kill xxx:停止正在运行中的容器
 
 #### Docker daemon
 ```
