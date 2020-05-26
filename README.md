@@ -55,7 +55,16 @@ mysql -u root -p
 接下来会提醒你输入密码，输入 123456 后就进入 mysql 了
 
 #### 在本机登录 mysql
-直接在 cmd 中执行
+1. 开启被关闭的 container:直接在 cmd 中执行
 ```
 docker start mysql1
 ```
+2. 进入 mysql 命令行环境
+```
+docker exec -it mysql1 bash
+```
+3. 登录
+```
+mysql -u root -p
+```
+
