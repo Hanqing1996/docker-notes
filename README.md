@@ -67,4 +67,10 @@ docker exec -it mysql1 bash
 ```
 mysql -u root -p
 ```
-
+---
+#### Docker 安装 postgresSQL
+1. 拉取镜像
+```
+docker pull postgres:9.6
+```
+2. 
