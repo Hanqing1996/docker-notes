@@ -74,3 +74,7 @@ mysql -u root -p
 docker pull postgres:9.6
 ```
 2. 
+
+
+#### Docker获取镜像报错 docker: Error response from daemon
+> 重启电脑，运行 start.sh，以重新获取IP
