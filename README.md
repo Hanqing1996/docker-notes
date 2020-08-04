@@ -2,7 +2,7 @@
 1. 安装软件时省去环境变量的配置
 2. 可拉取自己镜像，在不同机器上跑
 
-#### win10 下安装Docker
+#### win10 下安装Docker【使用 DockerToolbox】
 * 过程
 1. 下载 [DockerToolbox.exe](https://get.daocloud.io/toolbox/)(我下载的版本为 DockerToolbox-19.03.1.exe)       
 2. 执行上述 exe 文件后，在 Docker Toolbox 目录下(ds)用 Git Bash 执行 start.sh（之所以没用 Quick Start 是因为我出现了闪退问题）
@@ -11,6 +11,7 @@ start sh
 ```
 3. 我们会得到一个IP地址，以后会用到
 4. 使用[加速器](https://www.jianshu.com/p/2aa5b05717c6)
+
 
 #### 概念
 * 镜像(image)
